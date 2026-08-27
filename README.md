@@ -409,7 +409,7 @@
             navigator.serviceWorker.register(swUrl).catch(err => console.log('SW Error:', err));
         }
 
-        const SEU_WHATSAPP = "5500999999999"; 
+        const SEU_WHATSAPP = "5592986025704"; 
 
         const produtos = [
             {
