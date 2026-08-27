@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-title" content="Burguer & Cia">
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3075/3075977.png">
     
-    <!-- Manifest embutido diretamente via Data URI -->
+  <!-- Manifest embutido diretamente via Data URI -->
     <link rel="manifest" href='data:application/json,{"name":"Burguer %26 Cia - App de Pedidos","short_name":"Burguer %26 Cia","description":"Faça seu pedido diretamente pelo nosso aplicativo!","start_url":"./","display":"standalone","background_color":"%230c0a09","theme_color":"%23ea580c","icons":[{"src":"https://cdn-icons-png.flaticon.com/512/3075/3075977.png","sizes":"192x192","type":"image/png"},{"src":"https://cdn-icons-png.flaticon.com/512/3075/3075977.png","sizes":"512x512","type":"image/png"}]}'>
 
     <style>
@@ -587,7 +587,7 @@
 
             mensagem += `\n*Total a pagar:* R$ ${total.toFixed(2).replace('.', ',')}`;
 
-            const url = `https://wa.me/${SEU_WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
+            const url = `https://wa.me/${5592986025704}?text=${encodeURIComponent(mensagem)}`;
             window.open(url, '_blank');
 
             fecharModal();
